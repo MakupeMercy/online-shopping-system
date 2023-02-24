@@ -1,0 +1,239 @@
+/* 
+Author:Mercy Makupe;
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper{
+   
+    width:80%;
+    padding: 1%;
+    margin: 0 auto;
+
+}
+.text-center{
+    text-align: center;
+}
+
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* Menu css */
+.menu{
+    border-bottom: 1px solid grey;
+}
+.menu ul{
+    list-style-type: none;
+}
+.menu ul li{
+    display: inline;
+    padding: 1%;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #ff6b81;
+}
+
+.menu ul li a:hover{
+    color:#ff4757;
+    transition: .3s ease;
+}
+
+/* main content css */
+.main-content{
+    padding: 3% 0;
+    background-color: #f1f2f6;
+}
+.col-4{
+    width: 18%;
+    background-color: white;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+}
+
+/* table css */
+.tbl-full{
+    width:100%;
+    padding: 1%;
+    text-align: left;
+}
+table tr th{
+    border-bottom: 1px solid black;
+   
+   
+}
+table tr td{
+    padding-top: 1%;
+}
+.tbl-full tr th button{
+    padding: 1px;
+}
+
+.btn-primary{
+    background-color: #1e90ff;
+    padding: 1%;
+    font-weight: bold;
+    border: none;
+    
+}
+
+.btn-primary a{
+    color: white;
+}
+ a{
+    text-decoration: none;
+}
+ 
+
+.btn-primary:hover{
+    background-color: blue;
+}
+
+.btn-danger{
+    background-color:#ff6b81;
+    padding: 1%;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+}
+
+.btn-danger a{
+    color: white;
+}
+
+.btn-secondary a{
+    color: black;
+}
+
+.btn-danger:hover{
+    background-color: #ff4757;
+}
+.btn-secondary{
+    background-color: #7bed9f;
+    padding: 1%;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+}
+/* change password button */
+.btn-pass{
+    background-color: #1e90ff;
+    padding: 1%;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+}
+.btn-pass a{
+    color: white;
+}
+
+.btn-pass:hover{
+    background-color: blue;
+}
+
+.btn-secondary:hover{
+    background-color: #2ed573;
+}
+
+.btn-submit{
+    background-color: #7bed9f;
+    font-weight: bold;
+    border: none;
+    padding: 5%;
+    border-radius: 4px;
+}
+
+/* tbl-full css */
+
+.tbl-50{
+    width: 50%;
+}
+
+.tbl-50 tr{
+    padding: 5%;
+    
+}
+.tbl-50 tr button{
+    margin: 5%;
+    
+}
+
+tbl-50{
+    width: 50%;
+}
+
+
+/* End of table css */
+
+/* session message css */
+.success{
+    color: #0eeb54;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+
+}
+.danger{
+    color: rgb(230, 59, 59);
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* table add admin css */
+
+.tbl-30{
+    width: 30%;
+}
+
+/* Login css */
+.login{
+    border: 1px solid grey;
+    width: 30%;
+    margin: 5% auto;
+    background-color: rgb(166, 160, 190);
+    border-radius: 2px;
+
+}
+.login h1{
+    color: #c9545e;
+    transition: .4s linear;
+}
+.login h1:hover{
+    color: red;
+    cursor: pointer;
+}
+.btn-login{
+    background-color:  #1e90ff;
+    font-weight: bold;
+    border: none;
+    padding: 2% 5%;
+    border-radius: 2px;
+    color: white;
+    transition: .3s ease-in-out;
+}
+.btn-login:hover{
+    background-color: blue;
+    cursor: pointer;
+    
+}
+
+
+/* Footer css  */
+.footer{
+    background-color: #ff4757;
+    color: white;
+    
+}
+
